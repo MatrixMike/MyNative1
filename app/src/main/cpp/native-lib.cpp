@@ -44,7 +44,7 @@ Java_com_example_mynative1_MainActivity_stringFromJNI(
     int ledPins[] = {
             2, 7, 4, 6, 5, 3
     };                 // an array of pin numbers to which LEDs are attached
-    std::string hello = "Hello from C++  E" ;
+    std::string hello = "Hello from C++  F" ;
     // hello = itoa(99, buffer, DECIMAL_DIG)  ;
     return env->NewStringUTF(hello.c_str());
 }
